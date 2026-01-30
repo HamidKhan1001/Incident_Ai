@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Enterprise AI Incident Commander</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: auto;
+      padding: 40px 24px;
+    }
+
+    h1, h2, h3 {
+      color: #f8fafc;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
+      margin-top: 48px;
+    }
+
+    p {
+      color: #cbd5f5;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1e293b;
+      border: 1px solid #334155;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-right: 8px;
+      margin-top: 8px;
+    }
+
+    .highlight {
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 16px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    code {
+      background: #020617;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: #38bdf8;
+    }
+
+    pre {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 16px;
+      border-radius: 12px;
+      overflow-x: auto;
+      color: #e5e7eb;
+    }
+
+    .footer {
+      margin-top: 80px;
+      padding-top: 24px;
+      border-top: 1px solid #1e293b;
+      text-align: center;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .social a {
+      margin-right: 16px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>🚨 Enterprise AI Incident Commander</h1>
+    <p class="highlight">
+      Agentic AI system for proactive, enterprise-scale incident response and risk prediction
+    </p>
+
+    <div>
+      <span class="badge">IBM Dev Day AI Demystified Hackathon</span>
+      <span class="badge">Agentic AI</span>
+      <span class="badge">watsonx Orchestrate</span>
+      <span class="badge">Enterprise Automation</span>
+    </div>
+
+    <h2>📌 What This Project Does</h2>
+    <p>
+      <strong>Enterprise AI Incident Commander</strong> is an AI-orchestrated system that replaces the
+      first 30–45 minutes of human incident coordination with an intelligent, automated workflow.
+    </p>
+
+    <div class="card">
+      <ul>
+        <li>Detects real-time incidents</li>
+        <li>Enriches them with historical system statistics</li>
+        <li>Predicts escalation risk and time-to-failure</li>
+        <li>Automatically assigns the correct response owner</li>
+        <li>Notifies stakeholders with clear, explainable updates</li>
+      </ul>
+    </div>
+
+    <h2>🧠 Why This Matters</h2>
+    <p>
+      In large enterprises, incidents don’t fail because of bugs — they fail because of
+      <strong>slow coordination</strong>.
+    </p>
+
+    <div class="card">
+      <strong>Before (Manual)</strong>
+      <ul>
+        <li>Humans read alerts and logs</li>
+        <li>Severity debated in chat</li>
+        <li>Ownership unclear</li>
+        <li>Delayed and inconsistent updates</li>
+      </ul>
+
+      <strong>After (AI-Orchestrated)</strong>
+      <ul>
+        <li>Instant severity and risk prediction</li>
+        <li>Owner assigned automatically</li>
+        <li>Preemptive escalation before outages</li>
+        <li>One clear stakeholder update</li>
+      </ul>
+    </div>
+
+    <h2>🔮 Next-Level Intelligence</h2>
+    <p>
+      This system goes beyond reactive alerting. It uses historical incident statistics to
+      <strong>forecast future failures</strong>.
+    </p>
+
+    <div class="card">
+      <ul>
+        <li>Escalation probability (0–99%)</li>
+        <li>Expected time-to-failure (ETA)</li>
+        <li>Explainable decision logic</li>
+        <li>Preemptive recommendations</li>
+      </ul>
+    </div>
+
+    <h2>⚙️ Architecture Overview</h2>
+    <pre>
+Monitor Agent
+   ↓
+Stats Intelligence Agent
+   ↓
+Risk Prediction Agent
+   ↓
+Coordinator Agent
+   ↓
+Reporter Agent
+    </pre>
+
+    <p>
+      All agents are orchestrated through a central workflow aligned with
+      <strong>IBM watsonx Orchestrate</strong> principles.
+    </p>
+
+    <h2>🚀 How to Run the Demo</h2>
+    <pre>
+# Terminal 1
+python app.py
+
+# Terminal 2
+python run_demo.py
+    </pre>
+
+    <p>
+      The demo simulates a full enterprise incident lifecycle with real-time output,
+      statistics, predictions, and impact metrics.
+    </p>
+
+    <h2>📊 Impact (Simulated Enterprise Results)</h2>
+    <div class="card">
+      <ul>
+        <li>⏱ 78% reduction in incident triage time</li>
+        <li>👥 4 manual coordination steps eliminated</li>
+        <li>🔮 Risk forecasting added before outages</li>
+        <li>📉 Reduced downtime and operational loss</li>
+      </ul>
+    </div>
+
+    <h2>👤 About the Author</h2>
+    <p>
+      <strong>Hamid Khan</strong><br />
+      AI Engineer | Hackathon Builder | Enterprise Automation Enthusiast
+    </p>
+
+    <div class="social">
+      <a href="https://github.com/your-username" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/your-handle" target="_blank">Twitter / X</a>
+      <a href="mailto:your@email.com">Email</a>
+    </div>
+
+    <div class="footer">
+      <p>
+        Built with ❤️ by Hamid Khan<br />
+        IBM Dev Day AI Demystified Hackathon
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
