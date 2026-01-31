@@ -62,8 +62,7 @@ Built as an MVP for the **IBM watsonx Hackathon**, this project demonstrates how
 ## 🤖 Agentic Architecture
 ```
 
-👉 **Copy everything below and paste it after that line**.
-It will complete your README properly.
+
 
 ---
 
